@@ -1,0 +1,100 @@
+.box-before {
+    position: relative;
+    height: 100%;
+}
+
+// .box-after {
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     z-index: 10;
+//     &>*{
+//         transform: scale(2);
+//     }
+// }
+
+.box-after {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    top: 50%; /* 調整垂直位置的數值 */
+    transform: translateY(-50%); /* 根據元素高度的一半調整位置 */
+    
+    &>* {
+        transform: scale(2);
+    }
+}
+
+
+.keyword1-box-after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    top: 25%; /* 垂直位置置中 */
+    left: 25%; /* 調整水平位置的數值 */
+    transform: translate(-50%, -50%); /* 根據元素的寬度和高度的一半調整位置 */
+    
+    &>* {
+        transform: scale(2);
+    }
+}
+.keyword2-box-after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    top: 25%; /* 垂直位置置中 */
+    left: 75%; /* 調整水平位置的數值 */
+    transform: translate(-50%, -50%); /* 根據元素的寬度和高度的一半調整位置 */
+    
+    &>* {
+        transform: scale(2);
+    }
+}
+
+.keyword3-box-after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    top: 75%; /* 垂直位置置中 */
+    left: 25%; /* 調整水平位置的數值 */
+    transform: translate(-50%, -50%); /* 根據元素的寬度和高度的一半調整位置 */
+    
+    &>* {
+        transform: scale(2);
+    }
+}
+.keyword4-box-after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    top: 75%; /* 垂直位置置中 */
+    left: 75%; /* 調整水平位置的數值 */
+    transform: translate(-50%, -50%); /* 根據元素的寬度和高度的一半調整位置 */
+    
+    &>* {
+        transform: scale(2);
+    }
+}
